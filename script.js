@@ -20,8 +20,6 @@ function talkAboutTrees(expert){
     return(`${expert} says: a ${this.plantName} has ${this.foliageColour} ${this.foliageType}`);
 }
 
-console.log(talkAboutTrees());
-
 // * now with bind
 // * bind returns a function that is bound to an object or scope
 // * we call that function as we would call the original function

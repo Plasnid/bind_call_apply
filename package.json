@@ -4,7 +4,8 @@
   "description": "examples of bind, call, and apply",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server",
+    "start": "npm run lite"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Plasnid/bind_call_apply/issues"
   },
-  "homepage": "https://github.com/Plasnid/bind_call_apply#readme"
+  "homepage": "https://github.com/Plasnid/bind_call_apply#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
